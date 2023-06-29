@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<execute>
+  <proxy>system</proxy>
+  <appBounding>
+    <x>20</x>
+    <y>20</y>
+    <width>1300</width>
+    <height>960</height>
+  </appBounding>
+  <maxTry>
+    <searchElement>15</searchElement>
+    <interactable>15</interactable>
+  </maxTry>
+  <timeOut>
+    <script>60</script>
+    <pageLoad>120</pageLoad>
+  </timeOut>
+  <browsers>
+    <browser>
+      <name>opera</name>
+      <waitAction>150</waitAction>
+    </browser>
+    <browser>
+      <name>firefox</name>
+      <waitAction>200</waitAction>
+    </browser>
+  </browsers>
+  <SystemDriver>
+  <!--
+    <allowedIp>192.168.0.45 </allowedIp>
+    -->
+    <Debug>
+        <LogType>FILE</LogType>
+        <LogLevelAll>INFO</LogLevelAll>
+        <LogLevelWebDriver>DEBUG</LogLevelWebDriver>
+        <LogLevelCrowCpp>DEBUG</LogLevelCrowCpp>
+    </Debug>
+ </SystemDriver>
+  <applications/>
+  <mobiles/>
+</execute>
